@@ -22,11 +22,11 @@
         return noi;
     }
 
-    public static int Main()
+    /*public static int Main()
     {
         int[] heights = [1, 1, 4, 2, 1, 3];
         HeightChecker(heights);
 
         return 1;
-    }
+    }*/
 }

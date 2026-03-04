@@ -1,8 +1,8 @@
-﻿namespace LeetCodeSolutions
+﻿namespace SortAnArray
 {
-    internal class MySort
+    class Solution
     {
-        public static int[] InsertionSort(int[] array) 
+        public static int[] SortArray(int[] array)
         {
             for (int i = 1; i < array.Length; i++)
             {
@@ -18,7 +18,20 @@
                 array[j + 1] = k;
             }
 
+            foreach (int num in array)
+            {
+                Console.WriteLine($"{num}");
+            }
+
             return array;
+        }
+
+        public static int Main()
+        {
+            int[] array2 = [5, 1, 1, 2, 0, 0];
+            SortArray(array2);
+
+            return 1;
         }
     }
 }
