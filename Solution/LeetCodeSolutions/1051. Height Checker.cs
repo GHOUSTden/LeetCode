@@ -7,7 +7,7 @@
 
         Array.Copy(heights, expected, heights.Length);
 
-        Array.Sort(expected);
+        LeetCodeSolutions.MySort.InsertionSort(expected);
 
         for (int i = 0; i < expected.Length; i++)
         {
